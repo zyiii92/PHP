@@ -1,0 +1,109 @@
+/*頭貼+介紹範圍*/
+.firstplace{
+    display: flex;
+    width: auto;
+}
+
+/*介紹文字自動換行*/
+.p{
+    display: -webkit-inline-box;
+    -webkit-line-clamp: 100;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    white-space: pre-line;
+}
+
+/*介紹文字範圍界定、留白、顏色*/
+.introduce{
+    width: 910px;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-bottom: 10px; 
+    color: #f07102;
+}
+
+/*頭撇和介紹中間垂直線*/
+.v-line{
+    border-left: thin solid #F58828;
+    height: 80%;
+    left: 20%;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 70px; 
+}
+
+/*頭貼圖片設定圓形、列印、留白*/
+.avater-frame{
+    width: 200px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    background-color: #F58828;
+    background-image: url("C:/xampp/htdocs/practice/Week03/照片.png"); 
+    background-size: cover;
+    background-position: center;
+
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+
+    margin: 50px;
+    margin-right: 0px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+
+
+.question{
+    margin-left: 420px;
+    color: #f07102;
+    margin-bottom: 40px;
+}
+
+/*取名區塊*/
+.secondplace{
+    margin-left: 430px;
+    display: flex;
+    width: auto;
+}
+
+/*虎哥框格*/
+.AI{
+    width: 40px;
+    border: 3px #f07102 solid;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #F58828;
+    line-height: 1px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.PS證照{
+    width: 80px;
+    border: 3px #f07102 solid;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #F58828;
+    line-height: 1px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Word證照, .PPT證照{
+    width: 80px;
+    border: 3px #f07102 solid;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #F58828;
+    line-height: 1px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+

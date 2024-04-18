@@ -5,8 +5,6 @@ session_start();
 <meta charset="utf-8">
 <?php
 
-//GET透過網址傳值 較好控制值
-
 $uID="chair";
 $uPassword="123";
 
@@ -18,7 +16,6 @@ $pPassword="345";
 
 $sID = $_GET["sID"];
 $sPassword = $_GET["sPassword"];
-
 
 if($sID==$uID && $sPassword==$uPassword){
     $_SESSION["check"]="Yes1";
@@ -38,7 +35,5 @@ if($sID==$uID && $sPassword==$uPassword){
 }
 
 ob_flush();
-
-echo $uID." ".$uPassword;
 
 ?>

@@ -18,3 +18,6 @@ if( isset($_GET['sMytext']) && $_GET['sMytext']!='' ){
 ob_flush();
 
 ?>
+
+</br>
+<a href='logout.php'>登出</a>

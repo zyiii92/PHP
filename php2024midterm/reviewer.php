@@ -7,13 +7,11 @@ session_start();
     <meta charset="utf-8">
 </head>
 
-
 <?php
 
 if(isset($_SESSION["check"])){
     if($_SESSION["check"]=="Yes2"){
         echo "<p style='font-size:25px;'>Reviewer您好，歡迎進入論文評論網頁</p>";
-        
     }else{
         header("Location:index.php");
     }
@@ -39,4 +37,5 @@ if(isset($_SESSION["check"])){
 <input type="submit" value="提交"><br/><br/>
 
 <a href='logout.php'>登出</a>
+ 
 </html>

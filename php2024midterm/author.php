@@ -7,7 +7,6 @@ session_start();
     <meta charset="utf-8">
 </head>
 
-
 <?php
 
 if(isset($_SESSION["check"])){

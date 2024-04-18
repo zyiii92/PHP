@@ -7,7 +7,6 @@ session_start();
 
 <?php
 
-
 if(isset($_SESSION["check"])){
     if($_SESSION["check"]=="Yes1"){
         echo "登入chair成功<br/>";

@@ -22,3 +22,6 @@ if(isset($_GET['shorttext']) && $_GET['shorttext']!='' ){
 ob_flush();
 
 ?>
+
+</br>
+<a href='logout.php'>登出</a>
